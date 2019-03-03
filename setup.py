@@ -13,7 +13,7 @@ setuptools.setup(
 	long_description=description,
 	long_description_content_type='text/markdown',
 	packages=['anna_tasks', 'anna_tasks.test', 'anna_tasks.test.iframe', 'anna_tasks.base',
-	          'anna_tasks.base.checkout.cart.add', 'anna_tasks.base.checkout.cart.empty',
-	          'anna_tasks.lillynails.checkout.cart.add', 'anna_tasks.lillynails.checkout.order.place',
-	          'anna_tasks.lillynails.customer.login.success', 'anna_tasks.lillynails.customer.login.fail']
+	          'anna_tasks.base.checkout', 'anna_tasks.base.checkout.cart', 'anna_tasks.lillynails',
+                  'anna_tasks.lillynails.customer', 'anna_tasks.lillynails.customer.login',
+                  'anna_tasks.lillynails.checkout', 'anna_tasks.lillynails.checkout.cart', 'anna_tasks.lillynails.checkout.order']
 )
