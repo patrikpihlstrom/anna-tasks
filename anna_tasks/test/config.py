@@ -10,6 +10,5 @@ sequence = (
 	"iframe.submit",
 	"iframe.click",
 	"iframe.hover",
-	"iframe.wait",
-	"iframe.switch_to"
+	"iframe.wait"
 )
