@@ -1,11 +1,10 @@
 import setuptools
 
-with open('README.md', 'r') as f:
-	description = f.read()
+description = "### anna tasks package"
 
 setuptools.setup(
 	name='anna_tasks',
-	version='1.0.2',
+	version='1.0.4',
 	author='Patrik Pihlstrom',
 	author_email='patrik.pihlstrom@gmail.com',
 	url='https://github.com/patrikpihlstrom/anna-tasks',
