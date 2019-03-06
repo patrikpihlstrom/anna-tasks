@@ -9,12 +9,16 @@ events = [
 		"value": "didi watch"
 	},
 	{
-		"type": "click",
-		"target": ".product-item-link"
+		"type": "submit",
+		"target": "#search"
+	},
+	{
+		"type": "hover",
+		"target": ".product-top"
 	},
 	{
 		"type": "click",
-		"target": "#product-addtocart-button"
+		"target": ".tocart"
 	},
 	{
 		"type": "click",
