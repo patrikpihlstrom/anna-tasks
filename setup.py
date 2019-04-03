@@ -19,7 +19,7 @@ setuptools.setup(
 		'anna_tasks.lillynails.checkout.cart', 'anna_tasks.lillynails.checkout.order', 'anna_tasks.template23',
 		'anna_tasks.template23.checkout',
 		'anna_tasks.template23.checkout.cart', 'anna_tasks.template23.checkout.order',
-		'anna_tasks.buildor.checkout.order',
-		'anna_tasks.houseofmansson.checkout.order'
+		'anna_tasks.buildor.checkout.cart',
+		'anna_tasks.houseofmansson.checkout.cart'
 	]
 )
