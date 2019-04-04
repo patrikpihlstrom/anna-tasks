@@ -4,7 +4,7 @@ description = "### anna tasks package"
 
 setuptools.setup(
 	name='anna_tasks',
-	version='1.0.9',
+	version='1.0.10',
 	author='Patrik Pihlstrom',
 	author_email='patrik.pihlstrom@gmail.com',
 	url='https://github.com/patrikpihlstrom/anna-tasks',
@@ -19,7 +19,7 @@ setuptools.setup(
 		'anna_tasks.lillynails.checkout.cart', 'anna_tasks.lillynails.checkout.order', 'anna_tasks.template23',
 		'anna_tasks.template23.checkout',
 		'anna_tasks.template23.checkout.cart', 'anna_tasks.template23.checkout.order',
-		'anna_tasks.buildor.checkout.cart',
-		'anna_tasks.houseofmansson.checkout.cart'
+		'anna_tasks.buildor', 'anna_tasks.buildor.checkout', 'anna_tasks.buildor.checkout.cart',
+		'anna_tasks.houseofmansson', 'anna_tasks.houseofmansson.checkout', 'anna_tasks.houseofmansson.checkout.cart'
 	]
 )
