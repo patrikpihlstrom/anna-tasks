@@ -1,26 +1,16 @@
-events = [
-	{
-		"type": "click",
-		"target": "#search"
-	},
-	{
-		"type": "send_keys",
-		"target": "#search",
-		"value": "Cassia Funnel Sweatshirt"
-	},
-	{
-		"type": "submit",
-		"target": "#search"
-	},
-	{
-		"type": "click",
-		"target": ".tocart"
-	}
-]
+from anna_lib.selenium import assertions, events
+from anna_lib.task.abstract_task import AbstractTask
 
-assertions = [
-	{
-		"type": "element_exists",
-		"target": ".message-success"
-	}
-]
+
+class Add(AbstractTask):
+	def before_execute(self):
+		pass
+
+	def __execute__(self):
+		events.click(self.driver, target='#search')
+		events.send_keys(self.driver, target='#search', value='Cassia Funnel Sweatshirt')
+		events.submit(self.driver, target='#search')
+		events.click(self.driver, target='.tocart')
+
+	def after_execute(self):
+		self.result.append(assertions.element_exists(self.driver, target='.message-success'))
