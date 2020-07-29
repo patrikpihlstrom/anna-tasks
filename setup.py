@@ -13,11 +13,6 @@ setuptools.setup(
 	long_description_content_type='text/markdown',
 	install_requires=['anna-lib'],
 	packages=[
-		'anna_tasks', 'anna_tasks.base', 'anna_tasks.base.checkout', 'anna_tasks.base.checkout.cart',
-		'anna_tasks.template23', 'anna_tasks.template23.checkout',
-		'anna_tasks.template23.checkout.cart', 'anna_tasks.template23.checkout.order',
-		'anna_tasks.buildor', 'anna_tasks.buildor.checkout', 'anna_tasks.buildor.checkout.cart',
-		'anna_tasks.houseofmansson', 'anna_tasks.houseofmansson.checkout', 'anna_tasks.houseofmansson.checkout.cart',
-		'anna_tasks.blaelefant', 'anna_tasks.blaelefant.checkout', 'anna_tasks.blaelefant.checkout.cart'
+		'anna_tasks', 'anna_tasks.base', 'anna_tasks.base.checkout', 'anna_tasks.base.checkout.cart'
 	]
 )
